@@ -13,7 +13,5 @@ def app_run():
         }
     )
     page.run()
-    st.balloons()
-    st.title("hello, welcome!")
     
 app_run()
