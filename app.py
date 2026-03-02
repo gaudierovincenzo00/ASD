@@ -20,6 +20,6 @@ if "ruolo" not in st.session_state:
 
 def app_run():
     st.balloons()
-    caption("Created with love by [AWI](https://www.agenziawebitalia.com)")
+    st.title("hello, welcome!")
     page.run()
 
