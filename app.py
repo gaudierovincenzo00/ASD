@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-from login import login_form
 
 st.cache_data.clear()     # per cache_data
 st.cache_resource.clear() # per cache_resource
@@ -20,13 +19,7 @@ if "ruolo" not in st.session_state:
 
 
 def app_run():
+    st.balloons()
     caption("Created with love by [AWI](https://www.agenziawebitalia.com)")
     page.run()
 
-
-
-#app_run()
-if st.session_state.logged_in:
-    app_run()
-else:
-    login_form()
