@@ -14,4 +14,5 @@ def app_run():
     st.balloons()
     st.title("hello, welcome!")
 
+page.run()
 app_run()
