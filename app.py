@@ -9,7 +9,7 @@ def app_run():
     read_anagrafica = st.Page("read_anagrafica.py", title="Leggi Anagrafica", icon=":material/person_add:")
     page = st.navigation(
         {
-            "Anagrafica": [add_anagrafica],
+            "Anagrafica": [add_anagrafica, read_anagrafica],
         }
     )
     page.run()
