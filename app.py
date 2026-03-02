@@ -6,11 +6,11 @@ st.cache_resource.clear() # per cache_resource
 
 def app_run():
     add_anagrafica = st.Page("/add_anagrafica.py", title="Aggiugni Anagrafica", icon=":material/person_add:")
-        page = st.navigation(
-            {
-                "Anagrafica": [add_anagrafica],
-            }
-        )
+    page = st.navigation(
+        {
+            "Anagrafica": [add_anagrafica],
+        }
+    )
     st.balloons()
     st.title("hello, welcome!")
 
