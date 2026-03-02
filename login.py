@@ -3,6 +3,7 @@ import time
 
 
 def login_form(): #Form di login
+st.ballons()
     with st.form("login_form"):
         st.title("Login")
         username = st.text_input("Username")
