@@ -14,6 +14,6 @@ supabase: Client = create_client(url, key)
 
 # Esempio di query
 st.title("Dati da Supabase")
-response = supabase.table("test").select("*").execute()
+response = supabase.table("data").select("*").execute()
 
 st.write(response.data)
