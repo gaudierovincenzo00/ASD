@@ -11,8 +11,8 @@ def app_run():
             "Anagrafica": [add_anagrafica],
         }
     )
+    page.run()
     st.balloons()
     st.title("hello, welcome!")
-
-page.run()
+    
 app_run()
